@@ -106,13 +106,13 @@ function SearchBar() {
         </Button>
       </Tooltip>
 
-      {searchingRef.current && (
+      {/*searchingRef.current && (
         <Box boxSize="xl">
           <SearchResultsList searchResults={results} />
         </Box>
-      )}
+      )*/}
 
-      {/* <Modal
+      <Modal
         blockScrollOnMount={false}
         isOpen={isOpen}
         onClose={onClose}
@@ -129,7 +129,7 @@ function SearchBar() {
             )}
           </ModalBody>
         </ModalContent>
-      </Modal> */}
+      </Modal>
     </Flex>
   );
 }
